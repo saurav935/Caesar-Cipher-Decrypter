@@ -31,8 +31,8 @@ The encryption can be represented using modular arithmetic by first transforming
 
 # Row :
 
-a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z
-k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	a	b	c	d	e	f	g	h	i	j
+#a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z
+#k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	a	b	c	d	e	f	g	h	i	j
 
 # Note : This is a shift of 10.
 
@@ -51,6 +51,7 @@ Cipher: EXXEGOEXSRGI
 We can either write another function decrypt similar to encrypt, that’ll apply the given shift in the opposite direction to decrypt the original text. However we can use the cyclic property of the cipher under modulo , hence we can simply observe
 
 Cipher(n) = De-cipher(26-n)
+
 Hence, we can use the same function to decrypt, instead we’ll modify the shift value such that shift = 26-shift .
 
 # Pros and Cons of a Caesar Cipher :
