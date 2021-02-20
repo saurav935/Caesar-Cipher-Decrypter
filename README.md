@@ -19,15 +19,15 @@ The encryption can be represented using modular arithmetic by first transforming
 
 # Steps for designing and using a Caesar cipher
 
--- Choose a value to shift the alphabet by.
+- Choose a value to shift the alphabet by.
 
--- Make a table where the top row contains letters in standard alphabetical order, and the bottom row is the new shifted alphabet.
+- Make a table where the top row contains letters in standard alphabetical order, and the bottom row is the new shifted alphabet.
 
--- Encode the message by exchanging each letter in the message with the equivalent shifted letter.
+- Encode the message by exchanging each letter in the message with the equivalent shifted letter.
 
--- Make sure that the message’s intended recipient knows the shifting scheme you used to encode the message so they can decode it.
+- Make sure that the message’s intended recipient knows the shifting scheme you used to encode the message so they can decode it.
 
--- To decrypt a message encoded with a Caesar cipher, simply take the value of 26 minus the shift value, and apply that new value to shift the encoded message back to its original form.
+- To decrypt a message encoded with a Caesar cipher, simply take the value of 26 minus the shift value, and apply that new value to shift the encoded message back to its original form.
 
 # Row :
 
@@ -38,19 +38,19 @@ The encryption can be represented using modular arithmetic by first transforming
 
 For eg.
 
--- Text : ABCDEFGHIJKLMNOPQRSTUVWXYZ
--- Shift: 10
--- Cipher: KLMNOPQRSTUVWXYZABCDEFGHIJ
+- Text : ABCDEFGHIJKLMNOPQRSTUVWXYZ
+- Shift: 10
+- Cipher: KLMNOPQRSTUVWXYZABCDEFGHIJ
 
--- Text : ATTACKATONCE
--- Shift: 4
--- Cipher: EXXEGOEXSRGI
+- Text : ATTACKATONCE
+- Shift: 4
+- Cipher: EXXEGOEXSRGI
 
 
 # How a Caesar Cipher Decrypter Works?
 We can either write another function decrypt similar to encrypt, that’ll apply the given shift in the opposite direction to decrypt the original text. However we can use the cyclic property of the cipher under modulo , hence we can simply observe
 
--- Cipher(n) = De-cipher(26-n)
+- Cipher(n) = De-cipher(26-n)
 
 Hence, we can use the same function to decrypt, instead we’ll modify the shift value such that shift = 26-shift .
 
