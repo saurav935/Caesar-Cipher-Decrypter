@@ -10,9 +10,9 @@ The Caesar Cipher technique is one of the earliest and simplest method of encryp
 Thus to cipher a given text we need an integer value, known as shift which indicates the number of position each letter of the text has been moved down.
 The encryption can be represented using modular arithmetic by first transforming the letters into numbers, according to the scheme, A = 0, B = 1,…, Z = 25. Encryption of a letter by a shift n can be described mathematically as.
 
-![image](https://user-images.githubusercontent.com/75733364/108591645-cd7d7180-738f-11eb-8e0b-31f04f6684e7.png)
+- ![image](https://user-images.githubusercontent.com/75733364/108591645-cd7d7180-738f-11eb-8e0b-31f04f6684e7.png)
 
-![image](https://user-images.githubusercontent.com/75733364/108591658-da9a6080-738f-11eb-816b-4d1c3d442ab6.png)
+- ![image](https://user-images.githubusercontent.com/75733364/108591658-da9a6080-738f-11eb-816b-4d1c3d442ab6.png)
 
 ![ceaserCipher](https://user-images.githubusercontent.com/75733364/108591674-e6862280-738f-11eb-801e-f7917d563982.png)
 
@@ -56,5 +56,5 @@ Hence, we can use the same function to decrypt, instead we’ll modify the shift
 
 # Pros and Cons of a Caesar Cipher :
 
-A Caesar cipher is very easy to design, but also very easy to decode. To crack a Caesar code, a decoder could simply go through every possible shift of the alphabet (all 26 of them) and see if any sensible message appears. This is a relatively small number of combinations to check, for perspective, a message encoded with a Vigenère cipher has over 11 million possible combinations (and that is if the key is only five letters long — the longer the key, the more combinations), and the Enigma code has 158,962,555,217,826,360,000158,962,555,217,826,360,000 possible combinations.
+A Caesar cipher is very easy to design, but also very easy to decode. To crack a Caesar code, a decoder could simply go through every possible shift of the alphabet (all 26 of them) and see if any sensible message appears. This is a relatively small number of combinations to check, for perspective, a message encoded with a Vigenère cipher has over 11 million possible combinations (and that is if the key is only five letters long — the longer the key, the more combinations), and the Enigma code has 158,962,555,217,826,360,000  possible combinations.
 
