@@ -5,6 +5,7 @@
 ![cybersecurity-looks-to-the-cloud-to-protect-data-at-sea](https://user-images.githubusercontent.com/75733364/108591332-42e84280-738e-11eb-9cd8-cbc3090f4394.jpg)
 
 
+
 The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. It’s simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter some fixed number of positions down the alphabet. For example with a shift of 1, A would be replaced by B, B would become C, and so on. The method is apparently named after Julius Caesar, who apparently used it to communicate with his officials.
 Thus to cipher a given text we need an integer value, known as shift which indicates the number of position each letter of the text has been moved down.
 The encryption can be represented using modular arithmetic by first transforming the letters into numbers, according to the scheme, A = 0, B = 1,…, Z = 25. Encryption of a letter by a shift n can be described mathematically as.
@@ -18,15 +19,15 @@ The encryption can be represented using modular arithmetic by first transforming
 
 # Steps for designing and using a Caesar cipher
 
--Choose a value to shift the alphabet by.
+--Choose a value to shift the alphabet by.
 
--Make a table where the top row contains letters in standard alphabetical order, and the bottom row is the new shifted alphabet.
+--Make a table where the top row contains letters in standard alphabetical order, and the bottom row is the new shifted alphabet.
 
--Encode the message by exchanging each letter in the message with the equivalent shifted letter.
+--Encode the message by exchanging each letter in the message with the equivalent shifted letter.
 
--Make sure that the message’s intended recipient knows the shifting scheme you used to encode the message so they can decode it.
+--Make sure that the message’s intended recipient knows the shifting scheme you used to encode the message so they can decode it.
 
--To decrypt a message encoded with a Caesar cipher, simply take the value of 26 minus the shift value, and apply that new value to shift the encoded message back to its original form.
+--To decrypt a message encoded with a Caesar cipher, simply take the value of 26 minus the shift value, and apply that new value to shift the encoded message back to its original form.
 
 # Row :
 
