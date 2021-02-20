@@ -19,7 +19,7 @@ The encryption can be represented using modular arithmetic by first transforming
 ![ceaserCipher](https://user-images.githubusercontent.com/75733364/108591674-e6862280-738f-11eb-801e-f7917d563982.png)
 
 - Caesar Cipher falls under the category of monoalphabetic type of substitution, because the replacement remains the same throughout the message.
-- It is a symmetric type of encryption technique, because a symmetric encryption is a kind of technique where the same key is used to both encrypt and decrypt the data. 
+- It is a symmetric type of encryption technique, because a symmetric encryption is a kind of technique where the same key is used to both encrypt as well as decrypt the data. 
 
 # Steps for designing and using a Caesar cipher
 
