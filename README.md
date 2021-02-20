@@ -46,6 +46,8 @@ For eg.
 - Shift: 10
 - Cipher: KLMNOPQRSTUVWXYZABCDEFGHIJ
 
+
+
 - Text : ATTACKATONCE
 - Shift: 4
 - Cipher: EXXEGOEXSRGI
