@@ -31,7 +31,3 @@ def decrypt():
 
 decrypt()
 
-
-
-
-
